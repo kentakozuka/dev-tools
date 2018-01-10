@@ -16,7 +16,7 @@ RUN pip3.6 install \
 # nodejs
 RUN yum install -y \
 			npm \
-			nodejs \
+			nodejs
 
 RUN npm install -y --prefix=/home/work/modules/ \
 			phantomjs
