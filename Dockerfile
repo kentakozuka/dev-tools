@@ -29,9 +29,5 @@ RUN cp -p *.otf /usr/share/fonts/noto/
 RUN chmod 644 /usr/share/fonts/noto/*.otf
 RUN chown root:root /usr/share/fonts/noto/*.otf
 
-# make work directories
-RUN mkdir /home/work/
-RUN mkdir /var/lib/mysql
-
 # vi-like shell input
 RUN echo 'set -o vi' > /etc/profile.d/keybindings.sh
