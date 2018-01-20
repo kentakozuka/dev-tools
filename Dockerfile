@@ -11,6 +11,7 @@ RUN pip3.6 install \
 			selenium==3.8.1 \
 			slackbot \
 			slacker \
+			parse \
 			mysql-connector-python
 
 # nodejs
